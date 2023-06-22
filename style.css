@@ -1,12 +1,23 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  margin-left: 50px;
+  margin: 0;
 }
-.Muslim {
+section {
+  height: 450px;
+  /* border: 5px solid greenyellow; */
+}
+.color-highlight {
   color: rgb(34, 185, 185);
 }
 h1 {
   font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p,
+ol {
+  color: dimgray;
 }
 .btn {
   margin-top: 5px;
@@ -22,6 +33,62 @@ h1 {
   font-size: 14px;
 }
 div {
-  width: 50%;
   display: inline-block;
+}
+.right {
+  width: 25%;
+  margin-left: 55px;
+  text-align: right;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.left {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.second-text-block {
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+.second-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.left-text {
+  margin-left: 50px;
+}
+.shadow {
+  box-shadow: grey 5px 5px 20px;
+  border-radius: 5px;
+  height: 300px;
+}
+.thrid-section {
+  text-align: center;
+}
+.experience-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack {
+  border-left: solid 5px;
+  border-image: linear-gradient(red, yellow);
+  border-image-slice: 1;
+}
+#second-full-stack {
+  border-left: solid 5px;
+  border-image: linear-gradient(blue, purple);
+  border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: small;
 }
