@@ -1,0 +1,27 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 50px;
+}
+.Muslim {
+  color: rgb(34, 185, 185);
+}
+h1 {
+  font-size: 50px;
+}
+.btn {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: linear-gradient(to left, orange, yellow);
+  border-radius: 9px;
+  border: 1px solid lightpink;
+}
+.btn:active {
+  box-shadow: 3.5px 3.5px 3.5px lightcoral;
+}
+.btn:hover {
+  font-size: 14px;
+}
+div {
+  width: 50%;
+  display: inline-block;
+}
